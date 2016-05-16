@@ -1,0 +1,82 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".ui.WelcomeActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="@dimen/margin_medium"
+            >
+
+            <ImageView
+                android:src="@mipmap/ic_launcher"
+                android:layout_width="@dimen/logo_width"
+                android:layout_height="@dimen/logo_width"
+                android:scaleType="fitCenter"
+                android:layout_gravity="center|top" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_medium"
+                android:autoLink="web"
+                android:text="@string/welcome_text"
+                android:textSize="@dimen/text_size_medium" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_medium"
+                android:autoLink="web"
+                android:text="@string/eula_legal_text"
+                android:textSize="@dimen/text_size_medium" />
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- Button bar -->
+    <LinearLayout
+        android:layout_height="48dp"
+        android:background="@color/toolbar_background"
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent">
+
+        <Button
+            android:id="@+id/button_decline"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:background="@color/toolbar_background"
+            android:text="@string/decline"
+            android:textAllCaps="true"
+            android:textColor="@color/body_text_disabled"
+            android:textSize="@dimen/text_size_medium"
+            android:textStyle="@integer/font_textStyle_medium"
+            android:fontFamily="@string/font_fontFamily_medium"
+            />
+
+        <Button
+            android:id="@+id/button_accept"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:background="@color/toolbar_background"
+            android:text="@string/accept"
+            android:textAllCaps="true"
+            android:textSize="@dimen/text_size_medium"
+            android:textStyle="@integer/font_textStyle_medium"
+            android:fontFamily="@string/font_fontFamily_medium"
+            />
+
+    </LinearLayout>
+</LinearLayout>

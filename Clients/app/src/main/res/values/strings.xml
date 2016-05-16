@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Clients</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Short text welcoming the user to the application -->
+    <string name="welcome_to_app">Welcome to Clients app!</string>
+    <!-- Medium-length welcome text indicating the subsequent text is important legal information -->
+    <string name="welcome_text">Before we begin, here is some important legal information regarding
+        your use of this app.  Please read it carefully.</string>
+
+    <!-- Label on a button that the user clicks to accept Terms of Service. -->
+    <string name="accept">Accept</string>
+    <!-- Label on a button that the user clicks to decline Terms of Service. -->
+    <string name="decline">Decline</string>
+    <string name="title_activity_list_clients">Clients</string>
+    <string name="title_activity_sign_in">Sign In</string>
+    <string name="signing_in_text">Signing In</string>
+
+    <string-array name="client_types_array">
+        <item>Current</item>
+        <item>Prospect</item>
+    </string-array>
+
+    <string name="title_activity_contact_action">Client Name</string>
+
+    <string-array name="client_actions_array">
+        <item>Acquisiton</item>
+        <item>Contact Information</item>
+        <item>Related Documents</item>
+        <item>User Referrals</item>
+    </string-array>
+</resources>

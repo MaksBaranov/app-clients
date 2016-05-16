@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="eula_legal_text">
+
+        Your use of this application is governed by:
+        \n
+        \n    a) Company\'s Terms of Service (http://company.com/intl/en/policies/terms/)
+        \n    b) Company\'s Privacy Policy (http://company.com/intl/en/policies/privacy/)
+        \n    c) All applicable terms of service and privacy policies related to the Google+ Sign-In
+        (used for authenticating the user and obtaining his/her profile data) and Google Analytics
+        (for identifying the app usage patterns).
+
+        \n\nCompany\'s terms of service and privacy policies may be updated from time to time and
+        without notice.
+
+        \n\nBy using the app, you agree to the use of your data in accordance with Company\'s
+        Privacy Policy.
+    </string>
+</resources>

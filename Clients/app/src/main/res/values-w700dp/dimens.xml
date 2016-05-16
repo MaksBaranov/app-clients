@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- body content -->
+    <dimen name="centered_layout_width">600dp</dimen>
+    <dimen name="centered_layout_height">600dp</dimen>
+    <dimen name="centered_layout_top_margin">48dp</dimen>
+
+    <dimen name="accept_reject_height">48dp</dimen>
+
+</resources>
